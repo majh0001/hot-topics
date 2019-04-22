@@ -1,0 +1,91 @@
+/*Border boxing added to the layout*/
+*
+{
+    box-sizing: border-box;
+}
+
+.container
+{
+    margin: 0 auto;
+    width: 100%;
+}
+
+main
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 1.5em;
+    margin: 2rem;
+    color: #565656;
+}
+
+
+.logo
+{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+ul
+{
+  background-color: #6C89FF; 
+}
+
+
+li a
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+
+}
+
+li a:hover
+{
+  background-color: #6C89FF;
+    text-align: center;
+}
+
+
+a
+{
+    color:#6C89FF; 
+}
+
+p
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.col-md-4
+{
+    padding: 20px;
+}
+
+.masthead h2
+{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../img/masthead.png");
+    color: #FFFEFB;
+    padding: 60px;
+    font-size: 90px;
+    text-align: center;   
+}
+
+h5
+{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+footer 
+{
+    text-align: center;
+    line-height: 1.4em;
+}
